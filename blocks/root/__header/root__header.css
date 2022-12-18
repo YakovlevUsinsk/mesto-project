@@ -1,0 +1,9 @@
+.root__header {
+  margin: 45px auto 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .root__header {
+    margin-top: calc(28px + (100vw - 320px)*(45 - 28)/(480 - 320));
+  }
+}
