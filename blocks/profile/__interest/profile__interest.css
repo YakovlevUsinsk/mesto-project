@@ -1,0 +1,22 @@
+.profile__interest {
+  font-weight: 400;
+  line-height: calc(22/18);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  margin: 0;
+  grid-area: 2 / 2 / 2 / 4;
+  max-width: 336px;
+}
+
+@media screen and (max-width: 500px) {
+  .profile__interest {
+    max-width: 282px;
+    font-size: 14px;
+    line-height: calc(17/14);
+    text-align: center;
+    grid-area: 3 / 1 / 4 / 3;
+    margin-top: 8px;
+  }
+}

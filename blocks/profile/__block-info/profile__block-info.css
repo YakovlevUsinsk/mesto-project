@@ -1,0 +1,15 @@
+.profile__block-info {
+  display: grid;
+  grid-template-columns: min-content repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, auto);
+  row-gap: 9px;
+}
+
+@media screen and (max-width: 500px) {
+  .profile__block-info {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    gap: 0 10px;
+  }
+}
