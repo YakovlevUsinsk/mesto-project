@@ -1,7 +1,11 @@
 .forma__input {
+  display: block;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+  box-sizing: border-box;
   width: 358px;
   height: 27px;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(17/14);
 }
@@ -12,26 +16,26 @@
 }
 
 .forma__input::-webkit-input-placeholder {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(17/14);
 }
 
 .forma__input::-moz-placeholder {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(17/14);
   vertical-align: text-top;
 }
 
 .forma__input::-ms-input-placeholder {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(17/14);
 }
 
 .forma__input::placeholder {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(17/14);
 }
@@ -40,5 +44,4 @@
   .forma__input {
     max-width: 238px;
   }
-
 }

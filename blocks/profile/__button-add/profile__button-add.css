@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   border: #fff 2px solid;
+  border-radius: 2px;
   background-image: url(../../../images/button/cross.svg);
   background-position: center;
   background-repeat: no-repeat;
