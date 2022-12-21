@@ -1,0 +1,5 @@
+.element__image {
+  max-width: 282px;
+  grid-area: 1 / 1 / 2 / 3;
+  border-radius: 10px 10px 0 0;
+}
