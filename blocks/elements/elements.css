@@ -1,10 +1,4 @@
 .elements {
-display: grid;
-grid-template-columns: repeat(auto-fit, 282px);
-gap: 20px 17px;
-padding-left: 0;
-grid-auto-flow: row;
-max-width: 880px;
-width: 100%;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }

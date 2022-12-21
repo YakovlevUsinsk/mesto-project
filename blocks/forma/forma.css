@@ -1,0 +1,14 @@
+.forma {
+  align-self: center;
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 550px) {
+  .forma {
+    max-width: 238px;
+  }
+}

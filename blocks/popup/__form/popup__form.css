@@ -1,0 +1,18 @@
+.popup__form {
+  height: 330px;
+  width: 430px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 54px;
+  position: relative;
+}
+
+@media screen and (max-width: 550px) {
+  .popup__form {
+    width: 282px;
+    height: 322px;
+    row-gap: 70px;
+  }
+}

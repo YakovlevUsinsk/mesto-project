@@ -22,40 +22,59 @@
       <button type="button" class="button profile__button-add opacity"></button>
     </section>
 
-    <ul class="elements content__elements">
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1088404-unsplash.png" alt="Карачаевск" class="element__image">
-        <p class="element__title">Карачаевск</p>
-        <div class="button element__button-like"></div>
-      </li>
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
-        <p class="element__title">Гора Эльбрус </p>
-        <button type="button" class="button element__button-like"></button>
-      </li>
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
-        <p class="element__title">Домбай </p>
-        <button type="button" class="button element__button-like"></button>
-      </li>
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
-        <p class="element__title">Гора Эльбрус </p>
-        <button type="button" class="button element__button-like"></button>
-      </li>
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
-        <p class="element__title">Домбай</p>
-        <button type="button" class="button element__button-like"></button>
-      </li>
-      <li class="element">
-        <img src="./images/elements/kirill-pershin-1088404-unsplash.png" alt="Карачаево-Черкеск" class="element__image">
-        <p class="element__title">Карачаево-Черкесс </p>
-        <button type="button" class="button element__button-like"></button>
-      </li>
-    </ul>
-
+    <section class="elements content__elements">
+      <ul class="cards">
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1088404-unsplash.png" alt="Карачаевск" class="element__image">
+          <p class="element__title">Карачаевск</p>
+          <div class="button element__button-like"></div>
+        </li>
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
+          <p class="element__title">Гора Эльбрус</p>
+          <button type="button" class="button element__button-like"></button>
+        </li>
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
+          <p class="element__title">Домбай</p>
+          <button type="button" class="button element__button-like"></button>
+        </li>
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" class="element__image">
+          <p class="element__title">Гора Эльбрус</p>
+          <button type="button" class="button element__button-like"></button>
+        </li>
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1556355-unsplash.png" alt="Домбай" class="element__image">
+          <p class="element__title">Домбай</p>
+          <button type="button" class="button element__button-like"></button>
+        </li>
+        <li class="element">
+          <img src="./images/elements/kirill-pershin-1088404-unsplash.png" alt="Карачаево-Черкеск"
+            class="element__image">
+          <p class="element__title">Карачаево-Черкесс</p>
+          <button type="button" class="button element__button-like"></button>
+        </li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy;&nbsp;2020 Mesto Russia</p>
+  </footer>
+
+  <div class="popup popup_opened">
+    <div class="popup__form">
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form action="" class="forma">
+        <input class="input forma__input" type="text" name="name-user" value="Жак-Ив Кусто" placeholder="Жак-Ив Кусто" id="">
+        <input class="input forma__input" type="text" name="interest-user" value="Исследователь океана" placeholder="Исследователь океана" id="">
+        <button type="button" class="button forma__button">Сохранить</button>
+      </form>
+      <button class="button popup__button opacity"></button>
+    </div>
+
+  </div>
 
 </body>
 

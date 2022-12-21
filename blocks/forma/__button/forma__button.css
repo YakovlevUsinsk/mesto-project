@@ -1,0 +1,23 @@
+.forma__button {
+  width: 358px;
+  height: 50px;
+  background: #000000;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.forma__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .forma__button {
+    width: 238px;
+    height: 46px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: calc(17/14);
+  }
+}

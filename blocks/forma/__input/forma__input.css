@@ -1,0 +1,44 @@
+.forma__input {
+  width: 358px;
+  height: 27px;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: calc(17/14);
+}
+
+.forma__input:focus {
+  outline: none;
+  border: gray 1px solid;
+}
+
+.forma__input::-webkit-input-placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: calc(17/14);
+}
+
+.forma__input::-moz-placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: calc(17/14);
+  vertical-align: text-top;
+}
+
+.forma__input::-ms-input-placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: calc(17/14);
+}
+
+.forma__input::placeholder {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: calc(17/14);
+}
+
+@media screen and (max-width: 550px) {
+  .forma__input {
+    max-width: 238px;
+  }
+
+}

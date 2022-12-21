@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  max-width: 68.745%;
+  margin: 66px auto 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    max-width: 88.125%;
+    font-size: 14px;
+    line-height: calc(17/14);
+    margin-top: 48px;
+    margin-bottom: 36px;
+  }
+}
