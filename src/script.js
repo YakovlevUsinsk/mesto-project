@@ -80,7 +80,10 @@ function addDataCard(evt) {
 
 buttonAddPopupImage.addEventListener('click', () => { openPopup(popupAddImg) });// слушатель на отрытие формы пользывателя
 
-buttonEditProfile.addEventListener('click', () => openPopup(popupUserProfile));// слушатель на открытие формы добавления карточек
+buttonEditProfile.addEventListener('click', () => {
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
+  openPopup(popupUserProfile)});// слушатель на открытие формы добавления карточек
 
 formEditProfile.addEventListener('submit', submitEditProfileForm);// слушатель на добавление данных в форме пользывателя
 
