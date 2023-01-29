@@ -1,4 +1,4 @@
-.forma__input {
+.form__input {
   display: block;
   border: none;
   border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
@@ -11,19 +11,19 @@
   padding-bottom: 14px;
 }
 
-.forma__input:focus {
+.form__input:focus {
   outline: none;
   border: gray 1px solid;
   padding-bottom: 0;
 }
 
-.forma__input::-webkit-input-placeholder {
+.form__input::-webkit-input-placeholder {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(16.94/14);
 }
 
-.forma__input::-moz-placeholder {
+.form__input::-moz-placeholder {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 14px;
   line-height: calc(16.94/14);

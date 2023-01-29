@@ -35,12 +35,12 @@
   <div class="popup popup-user">
     <div class="popup__form">
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form action="#" class="forma" name="forma-user">
-        <input id="name-user" class="forma__input" type="text" name="name-user" value="Жак-Ив Кусто"
-          placeholder="Жак-Ив Кусто">
-        <input id="interest-user" class="forma__input" type="text" name="interest-user" value="Исследователь океана"
-          placeholder="Исследователь океана">
-        <button type="submit" class="button forma__button">Сохранить</button>
+      <form action="#" class="form" name="form-user">
+        <input id="name-user" class="form__input" type="text" name="name-user" value="Имя"
+          placeholder="Имя">
+        <input id="interest-user" class="form__input" type="text" name="interest-user" value="Вид деятельности"
+          placeholder="Вид деятельности">
+        <button type="submit" class="button form__button">Сохранить</button>
       </form>
       <button type="button" class="button popup__button"></button>
     </div>
@@ -49,10 +49,10 @@
   <div class="popup popup-img">
     <div class="popup__form">
       <h2 class="popup__title">Новое место</h2>
-      <form action="#" class="forma" name="forma-card">
-        <input id="name-card" class="forma__input" type="text" name="name-card" value="" placeholder="Название">
-        <input id="src-card" class="forma__input" type="text" name="src-card" value="" placeholder="Ссылка на картинку">
-        <button type="submit" class="button forma__button">Создать</button>
+      <form action="#" class="form" name="form-card">
+        <input id="name-card" class="form__input" type="text" name="name-card" value="" placeholder="Название">
+        <input id="src-card" class="form__input" type="text" name="src-card" value="" placeholder="Ссылка на картинку">
+        <button type="submit" class="button form__button">Создать</button>
       </form>
       <button type="button" class="button popup__button"></button>
     </div>
@@ -74,8 +74,8 @@
       <button type="button" class="button element__button-delete opacity"></button>
     </li>
   </template>
-
-  <script src="./script.js"></script>
+<script src="./src/constants.js"></script>
+  <script src="./src/script.js"></script>
 </body>
 
 </html>

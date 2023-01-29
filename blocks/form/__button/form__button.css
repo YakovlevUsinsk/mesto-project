@@ -1,4 +1,4 @@
-.forma__button {
+.form__button {
   width: 358px;
   height: 50px;
   background: #000000;
@@ -7,13 +7,13 @@
   margin-top: 12px;
 }
 
-.forma__button:hover {
+.form__button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {
-  .forma__button {
+  .form__button {
     width: 238px;
     height: 46px;
     margin-top: 20px;
