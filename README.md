@@ -11,4 +11,4 @@ __________________
 
 ### Адрес ресурса
 
-https://yakovlevusinsk.github.io/mesto/
+https://yakovlevusinsk.github.io/mesto-project/
