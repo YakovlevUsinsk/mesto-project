@@ -4,4 +4,5 @@
 
 .element__button-like_active:hover {
   cursor: pointer;
+  background-image: url('../../../../images/button/heart-active.svg');
 }
